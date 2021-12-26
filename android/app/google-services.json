@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "710153658027",
+    "project_id": "samir-online-store",
+    "storage_bucket": "samir-online-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710153658027:android:a5483b2675a41801ac61ee",
+        "android_client_info": {
+          "package_name": "com.example.samir_online_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710153658027-uu710qdom9le7arbi593924epj5poq5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.samir_online_store",
+            "certificate_hash": "adf9f016bb20a89fc41441af2ca4103767b02c30"
+          }
+        },
+        {
+          "client_id": "710153658027-h1ode5uer0fhkd01svqaml0lg4n1oqkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA11lA7XRFbrPUVRBG3IiCrE9R3iDA6cTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710153658027-h1ode5uer0fhkd01svqaml0lg4n1oqkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
