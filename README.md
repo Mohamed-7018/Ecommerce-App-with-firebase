@@ -12,7 +12,7 @@ Samir Online Store
   <img src="https://user-images.githubusercontent.com/80456446/140647786-f3cc8d5e-2dc2-4ad0-8200-d36f39061763.gif" width="50" height="30"  /> Samir Online Store Downloadwer<img src="https://user-images.githubusercontent.com/80456446/140647786-f3cc8d5e-2dc2-4ad0-8200-d36f39061763.gif" width="50" height="30"  />
   </h1>
 
-  <img src="https://user-images.githubusercontent.com/80456446/140654099-49314c9d-1db7-4f7a-be07-3480615c7b54.gif" align="left" width="270" hspace="10" vspace="10">
+  <img src="https://cdn.videoplasty.com/gif/online-shopping-flat-icon-gif-stock-gif-3490-1280x720.gif" align="left" width="270" hspace="35" vspace="10">
 
 
 
