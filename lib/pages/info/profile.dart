@@ -60,7 +60,7 @@ class _MyProfilePageState extends State<MyProfilePage>
           children: [
             BackgroundWidget(
               image:
-              'https://images.unsplash.com/photo-1578616070222-50c4de9d5ade?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=656&q=80',
+              'https://drive.google.com/uc?export=view&id=1Ie8JVqIq3UpA9pbBbrHckU8bnoGUcj1Y',
               height: assignHeight(context: context, fraction: 0.40),
             ),
             SingleChildScrollView(
@@ -95,10 +95,10 @@ class _MyProfilePageState extends State<MyProfilePage>
                             SizedBox(
                               height: 20.0,
                             ),
-                            _summaryDock(context),
-                            SizedBox(
-                              height: 20.0,
-                            ),
+                            // _summaryDock(context),
+                            // SizedBox(
+                            //   height: 20.0,
+                            // ),
                             _contact(context),
                             SizedBox(
                               height: 20.0,
@@ -195,84 +195,84 @@ class _MyProfilePageState extends State<MyProfilePage>
     );
   }
 
-  Widget _summaryDock(BuildContext context) {
-    return BlurFilter(
-      sigma: 5.0,
-      borderRadius: BorderRadius.only(
-          topRight: Radius.circular(20), bottomLeft: Radius.circular(20)),
-      child: Container(
-        width: MediaQuery.of(context).size.width * 0.9,
-        padding: const EdgeInsets.symmetric(vertical: 15),
-        decoration: BoxDecoration(
-          border: Border.all(color: Colors.pink[700], width: 2),
-          borderRadius: BorderRadius.only(
-              topRight: Radius.circular(20), bottomLeft: Radius.circular(20)),
-          //color: Colors.white.withOpacity(0.2),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15),
-          child: Column(
-            children: [
-              AnimatedTextHeader(
-                isSocial: true,
-                firstWord: "Your ",
-                secondWord: "Dock",
-                paddingHeight: 5.0,
-              ),
-              SlideTransition(
-                position: animation1,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Colors.indigo.withOpacity(0.3),
-                    borderRadius: BorderRadius.circular(30),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(12.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        ActionIcon(
-                          onTap: () {
-                            Constants.launchUniversalLink(Constants.githubLink);
-                          },
-                          title: "github",
-                          iconData: FeatherIcons.github,
-                          color: Color(0xFF9599B3),
-                        ),
-                        Spacer(),
-                        ActionIcon(
-                          onTap: () {
-                            Constants.launchUniversalLink(
-                                Constants.websiteLink);
-                          },
-                          title: "website",
-                          iconData: FeatherIcons.chrome,
-                          color: Color(0xFF817889),
-                        ),
-                        Spacer(),
-                        ActionIcon(
-                          onTap: () {
-                            Constants.launchUniversalLink(
-                                Constants.linkedInLink);
-                          },
-                          title: "LinkedIn",
-                          iconData: FeatherIcons.linkedin,
-                          color: Color(0xFFD47FA6),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-              SizedBox(
-                height: 5,
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+  // Widget _summaryDock(BuildContext context) {
+  //   return BlurFilter(
+  //     sigma: 5.0,
+  //     borderRadius: BorderRadius.only(
+  //         topRight: Radius.circular(20), bottomLeft: Radius.circular(20)),
+  //     child: Container(
+  //       width: MediaQuery.of(context).size.width * 0.9,
+  //       padding: const EdgeInsets.symmetric(vertical: 15),
+  //       decoration: BoxDecoration(
+  //         border: Border.all(color: Colors.pink[700], width: 2),
+  //         borderRadius: BorderRadius.only(
+  //             topRight: Radius.circular(20), bottomLeft: Radius.circular(20)),
+  //         //color: Colors.white.withOpacity(0.2),
+  //       ),
+  //       child: Padding(
+  //         padding: const EdgeInsets.symmetric(horizontal: 15),
+  //         child: Column(
+  //           children: [
+  //             AnimatedTextHeader(
+  //               isSocial: true,
+  //               firstWord: "Your ",
+  //               secondWord: "Dock",
+  //               paddingHeight: 5.0,
+  //             ),
+  //             SlideTransition(
+  //               position: animation1,
+  //               child: Container(
+  //                 decoration: BoxDecoration(
+  //                   color: Colors.indigo.withOpacity(0.3),
+  //                   borderRadius: BorderRadius.circular(30),
+  //                 ),
+  //                 child: Padding(
+  //                   padding: const EdgeInsets.all(12.0),
+  //                   child: Row(
+  //                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  //                     children: [
+  //                       ActionIcon(
+  //                         onTap: () {
+  //                           Constants.launchUniversalLink(Constants.githubLink);
+  //                         },
+  //                         title: "github",
+  //                         iconData: FeatherIcons.github,
+  //                         color: Color(0xFF9599B3),
+  //                       ),
+  //                       Spacer(),
+  //                       ActionIcon(
+  //                         onTap: () {
+  //                           Constants.launchUniversalLink(
+  //                               Constants.websiteLink);
+  //                         },
+  //                         title: "website",
+  //                         iconData: FeatherIcons.chrome,
+  //                         color: Color(0xFF817889),
+  //                       ),
+  //                       Spacer(),
+  //                       ActionIcon(
+  //                         onTap: () {
+  //                           Constants.launchUniversalLink(
+  //                               Constants.linkedInLink);
+  //                         },
+  //                         title: "LinkedIn",
+  //                         iconData: FeatherIcons.linkedin,
+  //                         color: Color(0xFFD47FA6),
+  //                       ),
+  //                     ],
+  //                   ),
+  //                 ),
+  //               ),
+  //             ),
+  //             SizedBox(
+  //               height: 5,
+  //             ),
+  //           ],
+  //         ),
+  //       ),
+  //     ),
+  //   );
+  // }
 
   Widget _buildOptionIcons({@required BuildContext context}) {
     return Column(
@@ -280,7 +280,7 @@ class _MyProfilePageState extends State<MyProfilePage>
       children: [
         AnimatedTextHeader(
           isSocial: true,
-          firstWord: "Your ",
+          firstWord: "My ",
           secondWord: "Contacts",
           paddingHeight: 0.0,
         ),
@@ -326,8 +326,8 @@ class _MyProfilePageState extends State<MyProfilePage>
                     onTap: () {
                       Constants.launchUniversalLink(Constants.websiteLink);
                     },
-                    title: "website",
-                    iconData: FeatherIcons.chrome,
+                    title: "HackerRank",
+                    iconData: FeatherIcons.code,
                     color: Color(0xFF817889),
                   ),
                   Spacer(),

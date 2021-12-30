@@ -31,7 +31,7 @@ class HeaderBox extends StatelessWidget {
         speed: Duration(milliseconds: 1000),
         controller: AnimatedTextController.loop,
         displayTime: Duration(milliseconds: 1000),
-        wordList: ['Kheir', 'And Baraka.', '& New.', 'woman.'],
+        wordList: ['Mohamed', 'Samir.', '& Online.', 'Store.'],
         textStyle:GoogleFonts.cookie(
           color: Constants.color2,
           fontSize: 25,
